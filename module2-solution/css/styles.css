@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.section-title {
+    background-color: #f5bdc7;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.pc {
+  width: 1200px;
+  height: 800px;
+}
+
+.telephone {
+  width: 375px;
+  height: 667px;
+}
+
+.tablette {
+  width: 768px;
+  height: 1024px;
+}
+
+/* Définir la taille d'un élément en pourcentage */
+.pc {
+  width: 80%;
+  height: 600px;
+}
+
+.telephone {
+  width: 100%;
+  height: 100%;
+}
+
+.tablette {
+  width: 50%;
+  height: 768px;
+}
